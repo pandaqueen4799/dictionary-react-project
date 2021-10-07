@@ -2,7 +2,7 @@
   max-width: 175px;
   display: block;
   margin: 0 auto;
-  transform: rotate(40);
+  transform: rotate(40deg);
 }
 
 .App-header {
