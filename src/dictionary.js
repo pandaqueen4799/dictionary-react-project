@@ -8,7 +8,6 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
@@ -16,9 +15,7 @@ export default function Dictionary() {
     event.preventDefault();
 
     // documentation:https://dictionaryapi.dev/ `https://api.dictionaryapi.dev/api/v2/entries/en/`
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/
-    %20%20%20%20en/${keyword}`;
-    console.log(apiUrl);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
