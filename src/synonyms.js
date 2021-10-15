@@ -7,7 +7,7 @@ export default function Synonyms(props) {
     return (
       <div className="synonyms">
         {/*<strong> Synonyms:</strong>*/}
-        {/*phonetics: Array(1)
+    {/*phonetics: Array(1)
 0:
 audio: "//ssl.gstatic.com/dictionary/static/sounds/20200429/sunset--_gb_1.mp3"
 text: "ˈsʌnsɛt" */}

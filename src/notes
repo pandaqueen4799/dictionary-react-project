@@ -1,10 +1,20 @@
- /*return (  meaning.definitions[0].definition );
+/*return (  meaning.definitions[0].definition );
            <Phonetics props={props.results.phonetics} />
           {props.result.phonetics.map(function(phonetic, index) {" "})}
           Above are two ways of how you can build this code*/
 
-         /* {props.result.phonetics.map(function(phonetics, index) {
+/* {props.result.phonetics.map(function(phonetics, index) {
                return ( <div key={index}>
                   <Phonetics phonetic={phonetics} />
                   </div>
-                 )}) */
+                 )}) 
+.phonetic h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e41717;
+  display: inline;
+} 
+
+
+*/
